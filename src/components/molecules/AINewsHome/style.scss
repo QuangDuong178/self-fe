@@ -1,0 +1,45 @@
+.ai-news-home-molecules {
+  padding: 25px 16px 16px 16px;
+  border-radius: 15px;
+
+
+  .distinguish {
+    padding: 3px 16px;
+    color: #00A6DA;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 10px;
+    border: 1px solid #00A6DA;
+  }
+
+  .article-title {
+    margin-top: 18px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .overview {
+    color: #8C8C8C;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .view-more {
+
+    a {
+      color: #00A6DA;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+  }
+}

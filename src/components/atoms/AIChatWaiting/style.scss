@@ -1,0 +1,29 @@
+.animation-waiting {
+  width: fit-content;
+}
+.waiting {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+  box-sizing: border-box;
+  background: #000;
+  border-radius: 50%;
+}
+
+.waiting.waiting-1 { animation: waiting 1s infinite }
+.waiting.waiting-2 { animation: waiting 1s 150ms infinite }
+.waiting.waiting-3 { animation: waiting 1s 300ms infinite }
+
+@keyframes waiting {
+  0%, 75%, 100% {
+    transform: translate(0, 0.25rem) scale(0.9);
+    opacity: 0.5;
+  }
+
+  25% {
+    transform: translate(0, -0.25rem) scale(1);
+    opacity: 1;
+  }
+}

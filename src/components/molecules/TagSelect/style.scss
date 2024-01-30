@@ -1,0 +1,32 @@
+.tag-select-molecules {
+  h3 {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+  }
+
+  .MuiOutlinedInput-root {
+    border-radius: 6px;
+    border: 1px solid #D6D6D6;
+    height: 48px;
+    background: #FFF;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+
+    .MuiAutocomplete-input {
+      padding: 0;
+    }
+  }
+  .MuiOutlinedInput-root {
+    padding: 0 !important;
+  }
+  .tag-chip{
+    margin-left: 8px;
+    padding: 5px 8px;
+
+  }
+}

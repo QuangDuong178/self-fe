@@ -1,0 +1,29 @@
+.pagination-atoms{
+  .Mui-selected{
+    border-radius: 5px;
+    border: 1px solid #DCDBDF;
+    background: #00A6DA;
+  }
+
+  .MuiButtonBase-root.MuiPaginationItem-root.Mui-selected{
+    border-radius: 5px;
+    border: 1px solid #DCDBDF;
+    background-color: #00A6DA;
+    color: #FFF;
+
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.16px;
+  }
+  .MuiButtonBase-root.MuiPaginationItem-root{
+    border: 1px solid #DCDBDF;
+    &:not(.MuiPaginationItem-ellipsis):not(.Mui-selected):not(.Mui-disabled) {
+      background-color: white;
+    }
+    &.Mui-disabled {
+      color: white;
+      opacity: 1;
+      background-color: #AFAFAF;
+    }
+  }
+}

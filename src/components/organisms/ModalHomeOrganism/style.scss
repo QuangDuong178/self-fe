@@ -1,0 +1,28 @@
+.modal-home-organism{
+
+  .ai-tools{
+    border-radius: 15px;
+    li + li {
+      border-top: 1px solid #C6C6C8;
+    }
+
+    .btn-use {
+      background-color: #00a6da;
+      color: white;
+      padding: 3px 16px;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      border: 1px solid #00A6DA;
+    }
+    .title{
+      color: #000;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.12px;
+    }
+  }
+}

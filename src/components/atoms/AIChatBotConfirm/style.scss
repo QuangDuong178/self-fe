@@ -1,0 +1,26 @@
+.ai-chat-atoms {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px;
+  .reflect {
+    color: #00A6DA;
+    text-align: right;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    cursor: pointer;
+  }
+  .title {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.16px;
+  }
+}

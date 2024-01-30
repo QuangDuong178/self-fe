@@ -1,0 +1,18 @@
+.ai-chat-atoms {
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.14px;
+}
+
+.text-typing p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  //border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: pre-line; /* Keeps the content on a single line */
+  //margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  //letter-spacing: .15em; /* Adjust as needed */
+}
+

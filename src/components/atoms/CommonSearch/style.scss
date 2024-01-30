@@ -1,0 +1,28 @@
+.common-search-atom{
+  height: 48px;
+
+  &:focus-visible {
+    border: 1px solid #D6D6D6;
+  }
+  .text-input-atoms{
+
+    .ant-input{
+      color: black;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.16px;
+      border-radius: 6px;
+      border: 1px solid #D6D6D6;
+      background: #FFF;
+      padding: 13px 16px 13px 42px;
+    }
+
+  }
+  .search-icon{
+    left: 16px;
+    top: 15px;
+    z-index: 999;
+  }
+}

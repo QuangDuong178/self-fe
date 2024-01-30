@@ -1,0 +1,22 @@
+.text-input-atoms {
+  position: relative;
+
+  .ant-input {
+    border-radius: 6px;
+    border: 1px solid #D6D6D6;
+    height: 48px;
+    background: #FFF;
+  }
+
+  .error {
+    position: absolute;
+    padding-top: 4px;
+    color: #F00;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.1px;
+  }
+
+}

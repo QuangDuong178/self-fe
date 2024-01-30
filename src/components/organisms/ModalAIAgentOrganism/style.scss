@@ -1,0 +1,65 @@
+.modal-ai-agent-organism{
+  .btn-next-step{
+    background: #00A6DA;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+    border-radius : 6px;
+  }
+  .ai-agent-chat{
+    .content{
+      overflow-y: scroll;
+    }
+  }
+  .ai-agent-note{
+    background-image: url("@/assets/img/logo_yoko_black.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .chatbot-name{
+    color: #8C8C8C;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+  }
+  .btn-disable{
+    background: #D9D9D9;
+    color: #787878;
+  }
+
+}
+//.text-typing {
+//  max-width: 400px;
+//  p {
+//    white-space: nowrap;
+//    overflow: hidden;
+//  }
+//  p {
+//    //animation:typing 4s steps(22,end) forwards,
+//    //blink 1s infinite;
+//    animation:typing 4.5s steps(40,end);
+//    //animation:typing 4.5s steps(40,end) forwards, blink-caret 1s step-end infinite;
+//  }
+//}
+//
+//@keyframes typing {
+//  from { width:0 }
+//  to { width:100% }
+//}
+//
+//@keyframes blink-caret {
+//  from, to {
+//    border-color: transparent;
+//  }
+//  50% {
+//    border-right:1px solid #222;
+//  }
+//}
